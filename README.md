@@ -1,6 +1,6 @@
 # 📚 Truyen0Hay - Website Đọc Truyện Tranh Online
 
-Trang web truyện tranh được phát triển với PHP thuần, sử dụng Laragon làm môi trường phát triển, tích hợp các dịch vụ như Google OAuth, Cloudflare Turnstile và Imgur API.
+Trang web truyện tranh sử dụng api của mangadex được phát triển với PHP thuần, sử dụng Laragon làm môi trường phát triển, tích hợp các dịch vụ như Google OAuth, Cloudflare Turnstile và Imgur API.
 
 ## 🚀 Demo Website
 
