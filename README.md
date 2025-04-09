@@ -4,7 +4,7 @@ Trang web truyện tranh được phát triển với PHP thuần, sử dụng L
 
 ## 🚀 Demo Website
 
-👉 [https://truyent0hay.site](https://truyent0hay.site)
+👉 [https://truyen0hay.site](https://truyen0hay.site)
 
 ---
 
