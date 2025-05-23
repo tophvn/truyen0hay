@@ -47,7 +47,7 @@ Dưới đây là các ảnh chụp thể hiện các tính năng chính và gia
 ```php
 // Dòng 71-72
 $mail->Username = 'truyentranhnetcontact@gmail.com'; // Email gửi
-$mail->Password = 'juuf bzoq eysl zdag'; // 🔐 Mật khẩu ứng dụng Gmail
+$mail->Password = 'bbbb aaaa xxxx tttt'; // 🔐 Mật khẩu ứng dụng Gmail
 
 // Dòng 79-80
 $resetLink = "http://truyenkhonghay.test/src/auth/reset_password.php?token=" . $token;
