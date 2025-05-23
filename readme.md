@@ -1,16 +1,26 @@
 # 📚 Truyen0Hay - Website Đọc Truyện Tranh Online
 
-Truyen0Hay is an online manga reading platform powered by the Mangadex API. Built with pure PHP and developed using Laragon, it integrates services like Google OAuth, Cloudflare Turnstile, and Imgur API for a seamless user experience.
+## ℹ️ Giới thiệu
+
+Truyen0Hay là website đọc truyện tranh trực tuyến dành cho những người yêu thích manga. Sử dụng API từ Mangadex, dự án được xây dựng hoàn toàn bằng PHP thuần và phát triển trên môi trường Laragon, đảm bảo trải nghiệm nhẹ nhàng nhưng mạnh mẽ. Các tính năng chính bao gồm:
+
+- **Thư viện manga phong phú**: Truy cập kho truyện tranh đa dạng với hàng ngàn tựa manga và chương mới qua tích hợp Mangadex.
+- **Giao diện thân thiện**: Thiết kế responsive, dễ sử dụng với tính năng tìm kiếm nâng cao, gợi ý cá nhân hóa và theo dõi lịch sử đọc.
+- **Đăng nhập an toàn**: Hỗ trợ Google OAuth để đăng nhập nhanh chóng và bảo mật.
+- **Chống spam**: Tích hợp Cloudflare Turnstile để bảo vệ form khỏi spam.
+- **Quản lý hình ảnh**: Sử dụng Imgur API để tải lên và quản lý hình ảnh truyện hiệu quả.
+
+Truyen0Hay mang đến trải nghiệm đọc truyện tuyệt vời cho người hâm mộ manga, đồng thời cung cấp mã nguồn mở để các lập trình viên tùy chỉnh và phát triển thêm. Dù bạn là độc giả hay nhà phát triển, Truyen0Hay là cánh cửa dẫn bạn đến thế giới manga đầy màu sắc!
+
+---
 
 ## 🚀 Demo Website
 
 👉 [https://truyen0hay.site](https://truyen0hay.site)
 
----
+## 📸 Ảnh chụp màn hình
 
-## 📸 Screenshots
-
-Below are screenshots showcasing the key features and UI of Truyen0Hay:
+Dưới đây là các ảnh chụp thể hiện các tính năng chính và giao diện của Truyen0Hay:
 
 | **Trang Chủ** | **Thông Tin Truyện** | **Truyện Đề Xuất** |
 |:-------------:|:--------------------:|:------------------:|
@@ -78,7 +88,7 @@ $password = "";
 $dbname = "truyen0hay";
 ```
 
-📌 Adjust according to your SQL server details. For local development, access the site at `http://truyenkhonghay.test/` to ensure proper functionality.
+📌 Điều chỉnh theo thông tin máy chủ SQL của bạn. Khi chạy trên local, truy cập đường dẫn `http://truyenkhonghay.test/` để đảm bảo hoạt động chính xác.
 
 ### 5. 📸 Cấu hình Imgur API - `admin/upload-manga.php`
 
@@ -93,8 +103,8 @@ $imgurClientId = '3cea3f0e5d5c043'; // Client ID của bạn
 
 - PHP >= 7.4
 - MySQL/MariaDB
-- Laragon (or XAMPP/WAMP)
-- Composer (for extensions)
+- Laragon (hoặc XAMPP/WAMP)
+- Composer (cho các phần mở rộng)
 
 ## 📁 Cấu trúc thư mục chính
 
@@ -135,7 +145,7 @@ truyen0hay/
 ├── lib/
 │   ├── functions.php
 │   └── PHPMailer/
-│       └── (PHPMailer files)
+│       └── (các file của PHPMailer)
 ├── public/
 │   ├── flags/
 │   ├── icon/
@@ -168,5 +178,5 @@ truyen0hay/
 
 ## 🤝 Góp ý & Liên hệ
 
-For feedback or bug reports, please contact:  
+Mọi góp ý hoặc báo lỗi, vui lòng liên hệ:  
 📩 [truyentranhnetcontact@gmail.com](mailto:truyentranhnetcontact@gmail.com)
