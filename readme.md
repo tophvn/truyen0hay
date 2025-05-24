@@ -14,10 +14,6 @@ Truyen0Hay mang đến trải nghiệm đọc truyện tuyệt vời cho ngườ
 
 ---
 
-## 🚀 Demo Website
-
-👉 [https://truyen0hay.site](https://truyen0hay.site)
-
 ## 📸 Ảnh chụp màn hình
 
 Dưới đây là các ảnh chụp thể hiện các tính năng chính và giao diện của Truyen0Hay:
